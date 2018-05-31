@@ -8,207 +8,534 @@
 */
 
 /* Reset */
-######
-table{
+@media screen and (max-width: 480px) {
+			#one .inner .desktopTable {
+				display: none;
+			}
+
+			#one .inner .mobileTable {
+				display: block;
+			}
+			
+			#one .inner. h1 {
+				display:none;
+			}
+			
+				.sanddinde {
+					width:100%;
+					height:80%;
+				}
+
+
+				.sandjambon {
+					width:100%;
+					height:40%;
+				}
+
+				.sandpoulet {
+					width:100%;
+					height:45%;
+				}
+
+				.sandthon {
+					width:100%;
+					height:130%;
+				}
+
+				.sandsaumon {
+					width:100%;
+					height:25%;
+				}
+
+				.sandchevre {
+					width:102%;
+					height:37%;
+				}
+
+				.sandmozza {
+					width:103%;
+					height:105%;
+				}
+				.vignette {
+					width:30%;
+					height:30%;
+				}
+
+				.bolognaise {
+					width:65%;
+					height:25%;
+				}
+
+				.boeufpoivre {
+					width:75%;
+					height:25%;
+				}
+
+				.lardons {
+					width:70%;
+					height:45%;
+				}
+
+				.tortellini {
+					width:70%;
+					height:25%;
+				}
+
+				.fromagesitaliens {
+					width:65%;
+					height:65%;
+				}
+
+				.quatresfromages {
+					width:70%;
+					height:70%;
+				}
+
+				.saumon {
+					width:85%;
+					height:70%;
+				}
+
+				.ricotta {
+					width:70%;
+					height:30%;
+				}
+
+				.iberique {
+					width:100%;
+					height:45%;
+				}
+				.roma {
+				width:100%;
+				height:45%;
+				}
+				.grecque {
+				width:100%;
+				height:45%;
+				}
+				.scandinave {
+				width:100%;
+				height:45%;
+					}
+				.oceane {
+				width:100%;
+				height:45%;
+					}
+				.veggie {
+				width:100%;
+				height:45%;
+					}
+				.mySandwich .descriptionImg {
+				margin-top:5%;
+				margin-left:5%;
+				width: 100%;
+				}
+
+				.mySandwich .Image {
+					margin-top:10%;
+					width:45%;
+				}
+
+				.details {
+					text-align:left;
+				}
+
+
+				#descBP {
+					width:100%;
+					margin-left:60%;
+					margin-top:15%;
+				}
+
+				#descbolognaise {
+					width:100%;
+					margin-left:60%;
+					margin-top:15%;
+				}
+
+				#desc4from {
+					width:100%;
+					margin-left:63%;
+					margin-top: 15%;
+					
+				}
+
+				#descfromit {
+					width:90%;
+					margin-left:67%;
+					margin-top:10%
+				}
+				#desclardons {
+					width:100%;
+					margin-left:65%;
+					margin-top:10%;
+				}
+				#descricotta {
+					width:110%;
+					margin-left:55%;
+					margin-top:10%
+				}
+				#descSGR {
+					width:190%;
+					margin-left:18%;
+					margin-top:15%;
+				}
+				#desciberique {
+					width:190%;
+					margin-left:18%;
+					margin-top:15%;
+				}
+				#descoceane {
+					width:190%;
+					margin-left:18%;
+					margin-top:15%;
+				}
+				#descroma {
+					width:190%;
+					margin-left:18%;
+					margin-top:15%;
+				}
+				#descscandinave {
+					width:190%;
+					margin-left:18%;
+					margin-top:15%;
+				}
+				#descveggie {
+					width:190%;
+					margin-left:18%;
+					margin-top:15%;
+				}
+				#descchevre {
+					width:170%;
+					margin-top:30%;
+					margin-left: 20%;
+				}
+				#desccurry {
+					width:180%;
+					margin-top:10%;
+					margin-left:10%
+				}
+				#descdinde {
+					width:165%;
+					margin-top: 15%;
+					margin-left: 17%;
+				}
+				#descjambon {
+					width:175%;
+					margin-top:15%;
+					margin-left:10%;
+				}
+				#descmozza {
+					width:160%;
+					margin-top:15%;
+					margin-left: 30%;
+				}
+				#descsandsaumon {
+					width:170%;
+					margin-top:15%;
+					margin-left:25%;
+				}
+				#descthon {
+					width:160%;
+					margin-top:10%;
+					margin-left:25%;
+				}
+				#descsaumon {
+					width:150%;
+					margin-left:35%;
+					margin-top:5%
+				}
+
+				#desctortellini {
+					width:110%;
+					margin-left:55%;
+					margin-top:10%
+				}
+					
+		}
+
+		@media screen and (min-width: 481px) {
+			#one .inner .mobileTable {
+				display: none;
+			}
+			
+			.sanddinde {
+				width:100%;
+				height:205%;
+			} 
+			
+			.sandjambon {
+				width:100%;
+				height:85%;
+			}
+
+			.sandpoulet {
+				width:100%;
+				height:100%;
+			}
+
+			.sandthon {
+				width:100%;
+				height:300%;
+			}
+
+			.sandsaumon {
+				width:110%;
+				height:57%;
+			}
+
+			.sandchevre {
+				width:95%;
+				height:105%;
+			}
+
+			.sandmozza {
+				width:105%;
+				height:225%;
+			}
+			.vignette {
+				width:30%;
+				height:30%;
+			}
+
+			.bolognaise {
+				width:65%;
+				height:47%;
+			}
+
+			.boeufpoivre {
+				width:75%;
+				height:47%;
+			}
+
+			.lardons {
+				width:70%;
+				height:90%;
+			}
+
+			.tortellini {
+				width:75%;
+				height:48%;
+			}
+
+			.fromagesitaliens {
+				width:75%;
+				height:120%;
+			}
+
+			.quatresfromages {
+				width:75%;
+				height:130%;
+			}
+
+			.saumon {
+				width:70%;
+				height:135%;
+			}
+
+			.ricotta {
+				width:75%;
+				height:55%;
+			}
+
+			.iberique {
+				width:100%;
+				height:100%;
+			}
+			.roma {
+				width:100%;
+				height:100%;
+			}
+			.grecque {
+				width:100%;
+				height:100%;
+			}
+			.scandinave {
+				width:100%;
+				height:100%;
+			}
+			.oceane {
+				width:100%;
+				height:100%;
+			}
+			.veggie {
+				width:100%;
+				height:100%;
+			}
+			.mySandwich .descriptionImg {
+				float: left;
+				margin-top:5%;
+				margin-left:5%;
+				width: 45%;
+				height: 50%;;
+			}
+
+			.mySandwich .Image {
+				float: right;
+				margin-top:2%;
+				width:45%;
+				height:100%;
+			}
+
+			.details {
+				text-align:left;
+				font-size: x-large;
+			}
+
+
+			#descBP {
+				width:50%;
+				margin-left:40%;
+			}
+
+			#descbolognaise {
+				width:60%;
+				margin-left:40%;
+			}
+
+			#desc4from {
+				width:50%;
+				margin-left:35%;
+				margin-top: 5%;
+			}
+
+			#descfromit {
+				width:40%;
+				margin-left:40%;
+				margin-top:5%;
+			}
+			#desclardons {
+				width:55%;
+				margin-left:40%;
+				margin-top:10%;
+			}
+			#descricotta {
+				width:45%;
+				margin-left:40%;
+				margin-top:5%
+			}
+			#descSGR {
+				width:90%;
+				margin-top: 5%;
+			}
+			#desciberique {
+				width:90%;
+				margin-top: 5%;
+			}
+			#descoceane {
+				width:90%;
+				margin-top: 5%;
+			}
+			#descroma {
+				width:90%;
+				margin-top: 5%;
+			}
+			#descscandinave {
+				width:100%;
+				margin-top: 5%;
+			}
+			#descveggie {
+				width:90%;
+				margin-top: 5%;
+			}
+			#descchevre {
+				width:65%;
+				margin-top:5%;
+				margin-left: 15%;
+			}
+			#desccurry {
+				width:225%;
+				margin-left:105%;
+				margin-top:5%;
+			}
+			#descdinde {
+				width:210%;
+				margin-top:-10%;
+				margin-left:90%;
+			}
+			#descjambon {
+				width:230%;
+				margin-top:-5%;
+				margin-left:93%;
+			}
+			#descmozza {
+				width:95%;
+				margin-left: -3%;
+				margin-top:10%;
+			}
+			#descsandsaumon {
+				width:95%;
+				margin-top:8%;
+			}
+			#descthon {
+				width:85%;
+				margin-top:7%;
+				margin-left:5%;
+			}
+			#descsaumon {
+				width:60%;
+				margin-left:40%;
+				margin-top:5%
+			}
+
+			#desctortellini {
+				width:50%;
+				margin-left:40%;
+				margin-top:3%
+			}	
+		}
+
+		
+		
+
+
+.mySandwich {
+    width: 100%;
+    height: 100%;
+}
+
+.mySandwich h1 {
 	text-align: center;
-	width:100%;
-	margin-bottom: 100%;
-	padding-top: 100px;
-	margin-left: 100%;
-	margin-right: 100%;
 }
 
-#id {
-	text-align: center;
-	width: 30%;
-}
-#id8 {
-	width: 15%;
-}
-#id01 {
-	width: 35%;
-}
-#id21 {
-	width: 35%;
-}
-#id001 {
-	height: 5000px
-}
-#id002 {
-	height: 100px
+h1 {
+	text-decoration:underline
 }
 
-#id9 {
-	width: 80%;
-}
-#id1 {
-	width: 50%;
-}
-
-#id3 {
-	width: 25%;
-
-}
-#id6 {
-	width: 30%;
-
-}
-#id5 {
-	width: 17%;
-
-}
-
-#id4 {
-	width: 55%;
-
-}
-
-#id2 {
-	width: 20%;
-
-}
-
-#id7 {
-	width: 20%;
-}
-#id0 {
-	text-align: center;
-	font-size: 400%;
-	font-family: Trebuchet;
-	width: 5%;
-	height: 5%;
-}
-
-#id10 {
-	width: 40%;
-}
-#id11 {
-	width: 55%;
-}
-#id12 {
-	width: 65%;
-}
-#id13 {
-	width: 50%;
-}
-#id14 {
-	width: 45%;
-}
-#id15 {
-	width: 63%;
-}
-#id16 {
-	width: 30%;
-}
-#id17 {
-	width: 55%;
-}
-#id18 {
-	width: 60%;
-}
-#id19 {
-	width: 69%;
-}
-#id20 {
-	width: 75%;
-}
-#id21 {
-	width: 70%;
-}
-#id22 {
-	width: 65%;
-}
-#id23 {
-	width: 60%;
-}
-#id24 {
-	width: 50%;
-}
-#id25 {
-	width: 80%;
-}
-#id26 {
-	width: 60%;
-}
-#id27 {
-	width: 47%;
-}
-#id28 {
-	width: 50%;
-}
-#id29 {
-	width: 55%;
-}
-#id30 {
-	width: 60%;
-}
-#id31 {
-	width: 60%;
-}
-#id32 {
-	width: 65%;
-}
-#id33 {
-	width: 65%;
-}
-#id34 {
-	width: 65%;
-}
-#id35 {
-	width: 55%;
-}
-#id36 {
-	width: 60%;
-}
-#id300 {
-	height: 3200px;
-}
-
-#id301 {
-	text-align: center;
-	font-size: 400%;
-	font-family: Trebuchet;
-	width: 5%;
-	height: 5%;
-}
-#id302 {
-	height: 100px;
-}
-#id303 {
-	width: 25%;
-}
-#id304 {
-	text-align: center;
-	font-size: 150%;
-	font-family: Trebuchet;
-
-}
-#id305 {
-	width: 100%;
-	text-align: center;
-
-}
-#id306 {
-	width: 25%;
-}
-#id307 {
-	width: 25%;
-}
-#id308 {
-	width: 35%;
-}
-#id309 {
-	width: 30%;
-}
-#id310 {
-	width: 30%;
-}
-#id311 {
-	width: 30%;
+.souligne {
+	text-decoration:underline;
+	font-weight: bold;
 }
 
 
-#####
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -1093,7 +1420,95 @@ table{
 		border-top-color: #ffffff;
 	}
 
+/* Table */
 
+	.table-wrapper {
+		-webkit-overflow-scrolling: touch;
+		overflow-x: auto;
+	}
+
+	table {
+		margin: 0 0 2em 0;
+		width: 100%;
+	}
+
+		table tbody tr {
+			border: solid 1px;
+			border-left: 0;
+			border-right: 0;
+		}
+
+		table td {
+			text-align: center;
+			padding: 0.75em 0.75em;
+		}
+
+		table th {
+			font-size: 0.9em;
+			font-weight: 700;
+			padding: 0 0.75em 0.75em 0.75em;
+			text-align: left;
+		}
+
+		table thead {
+			border-bottom: solid 2px;
+		}
+
+		table tfoot {
+			border-top: solid 2px;
+		}
+
+		table.alt {
+			border-collapse: separate;
+		}
+
+			table.alt tbody tr td {
+				border: solid 1px;
+				border-left-width: 0;
+				border-top-width: 0;
+			}
+
+				table.alt tbody tr td:first-child {
+					border-left-width: 1px;
+				}
+
+			table.alt tbody tr:first-child td {
+				border-top-width: 1px;
+			}
+
+			table.alt thead {
+				border-bottom: 0;
+			}
+
+			table.alt tfoot {
+				border-top: 0;
+			}
+
+	table tbody tr {
+		border-color: #ffffff;
+	}
+
+		table tbody tr:nth-child(2n + 1) {
+			background-color: rgba(255, 255, 255, 0.2);
+		}
+
+	table th {
+		color: #ffffff;
+	}
+
+	table thead {
+		border-bottom-color: #ffffff;
+	}
+
+	table tfoot {
+		border-top-color: #ffffff;
+	}
+
+	table.alt tbody tr td {
+		border-color: #ffffff;
+	}
+
+/* Button */
 
 	input[type="submit"],
 	input[type="reset"],
@@ -1435,9 +1850,10 @@ table{
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				padding: 2.375em 4em 2em 4em ;
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 50px;
 				position: relative;
-				width: 40em;
 				max-width: 100%;
 				max-height: 100%;
 				z-index: 2;
@@ -1887,7 +2303,11 @@ table{
 
 		}
 
-		@media screen and (max-width: 480px) {
+		#one .inner h1 {
+			text-align: center;
+		}
+
+		@media screen and (max-width: 280px) {
 
 			#main .slide > .inner {
 				padding: 2.5em 2.5em 0.5em 2.5em ;
@@ -1902,3 +2322,8 @@ table{
 			}
 
 		}
+		
+
+		
+
+	
